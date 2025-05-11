@@ -235,6 +235,7 @@ for variable in prob2.variables():
 
 print(f"Minimal transaction cost in USD = {round(value(prob2.objective), 2)}")
 print(f"")
+```
 Question 4
 status=Optimal
 E=51419.0
@@ -263,7 +264,7 @@ UH=0.0
 UJ=0.0
 UP=0.0
 Minimal transaction cost in USD = 27860.19
-
+```
 #q5
 prob3 = LpProblem("problem3", LpMinimize)
 U = LpVariable("U", 250000, None)
@@ -333,6 +334,7 @@ for variable in prob3.variables():
 
 print(f"Minimal transaction cost in USD = {round(value(prob3.objective), 2)}")
 print(f"")
+```
 Question 5
 status=Unbounded
 E=257096.0
@@ -361,4 +363,4 @@ UH=0.0
 UJ=0.0
 UP=0.0
 Minimal transaction cost in USD = 27903.65
-```
+
